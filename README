@@ -1,4 +1,4 @@
-The directories Demo/CORTEX_LM3S102_GCC and Demo/CORTEX_LM3S811_GCC directory
+The directories Demo/CORTEX_LM3S102_GCC and Demo/CORTEX_LM3S811_GCC
 are direct copies from FreeRTOS v 7.0.1, they will be harvested for their 
 Makefiles. These are compilable GCC ARM CORTEX demos, and cn be used to verify
 a working toolchain (is this true?).
@@ -16,3 +16,9 @@ has been copied to Demo/ to remind me of its existence.
 
 -Matti Kariluoma <matti.kariluoma@gmail.com> Sep 17 2011
 
+
+The directory Source/ is included to allow compilation to proceed on the demos.
+
+The file setup_env.bashrc is a helper setof commands, but is not a bash 
+script. Invoke like:
+$ source setup_env.bashrc
