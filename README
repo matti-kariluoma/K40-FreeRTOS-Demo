@@ -1,0 +1,18 @@
+The directories Demo/CORTEX_LM3S102_GCC and Demo/CORTEX_LM3S811_GCC directory
+are direct copies from FreeRTOS v 7.0.1, they will be harvested for their 
+Makefiles. These are compilable GCC ARM CORTEX demos, and cn be used to verify
+a working toolchain (is this true?).
+
+The directory Demo/K60_demo is copied from http://www.freertos.org/FreeRTOS-for-K60-Cortex-M4-with-web-server.html#Kinetis-K60-RTOS-Demo-Application
+which is a demo for the K60 tower, using the IAR toolchain for release in 
+FreeRTOS v7.0.2 . Before beginning the K40 port, this IAR version will
+be compiled (not tested... no K60 board) with GCC.
+
+The directory Demo/K40_demo will contain the K40 port.
+
+The directory Demo/Common is copied from the K60_demo source (url above). It
+contains an additional file from the FreeRTOS v7.0.1 release, sp_flop.c, which
+has been copied to Demo/ to remind me of its existence.
+
+-Matti Kariluoma <matti.kariluoma@gmail.com> Sep 17 2011
+

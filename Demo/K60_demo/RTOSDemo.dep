@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2363772066</fileChecksum>
+  <configuration>
+    <name>Blinky</name>
+    <outputs>
+      <file>$PROJ_DIR$\Blinky\Obj\mcg.o</file>
+      <file>$PROJ_DIR$\Blinky\Obj\uart.o</file>
+      <file>$PROJ_DIR$\Freescale_Code\drivers\mcg\mcg.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\drivers\uart\uart.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\drivers\wdog\wdog.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\uIP_Task.c</file>
+      <file>$PROJ_DIR$\..\..\Source\include\croutine.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\StackMacros.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\task.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\list.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\queue.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\portable.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\FreeRTOS.h</file>
+      <file>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\portmacro.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\timers.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\projdefs.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\mpu_wrappers.h</file>
+      <file>$PROJ_DIR$\Blinky\Obj\sysinit.o</file>
+      <file>$PROJ_DIR$\Blinky\Obj\start.o</file>
+      <file>$PROJ_DIR$\..\..\Source\list.c</file>
+      <file>$PROJ_DIR$\..\..\Source\queue.c</file>
+      <file>$PROJ_DIR$\..\..\Source\tasks.c</file>
+      <file>$PROJ_DIR$\..\..\Source\timers.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\common\startup.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\cpu\arm_cm4.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\cpu\crt0.s</file>
+      <file>$PROJ_DIR$\Freescale_Code\cpu\start.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\cpu\sysinit.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\cpu\vectors.c</file>
+      <file>$PROJ_DIR$\FreeRTOSConfig.h</file>
+      <file>$PROJ_DIR$\main-full.c</file>
+      <file>$PROJ_DIR$\main_blinky.c</file>
+      <file>$PROJ_DIR$\ParTest.c</file>
+      <file>$PROJ_DIR$\..\..\Source\portable\MemMang\heap_2.c</file>
+      <file>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\port.c</file>
+      <file>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\portasm.s</file>
+      <file>$PROJ_DIR$\Blinky\Obj\vectors.o</file>
+      <file>$PROJ_DIR$\Blinky\Obj\wdog.o</file>
+      <file>$PROJ_DIR$\Blinky\Obj\main_blinky.o</file>
+      <file>$PROJ_DIR$\Blinky\Obj\portasm.o</file>
+      <file>$PROJ_DIR$\Blinky\Obj\crt0.o</file>
+      <file>$PROJ_DIR$\Blinky\Obj\heap_2.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Obj\port.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Obj\queue.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Obj\tasks.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Obj\timers.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Obj\startup.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Obj\arm_cm4.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Obj\start.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Obj\sysinit.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Obj\vectors.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Obj\mcg.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Obj\wdog.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Obj\main_blinky.pbi</file>
+      <file>$PROJ_DIR$\Blinky\Exe\RTOSDemo.srec</file>
+      <file>$PROJ_DIR$\Blinky\Exe\RTOSDemo.out</file>
+      <file>$PROJ_DIR$\Blinky\Obj\RTOSDemo.pbd</file>
+      <file>$PROJ_DIR$\Blinky\Obj\tasks.o</file>
+      <file>$PROJ_DIR$\Blinky\Obj\port.o</file>
+      <file>$PROJ_DIR$\Blinky\Obj\heap_2.o</file>
+      <file>$PROJ_DIR$\Blinky\Obj\list.o</file>
+      <file>$PROJ_DIR$\Blinky\Obj\queue.o</file>
+      <file>$PROJ_DIR$\Blinky\Obj\arm_cm4.o</file>
+      <file>$PROJ_DIR$\Blinky\Obj\timers.o</file>
+      <file>$PROJ_DIR$\Blinky\Obj\startup.o</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\drivers\mcg\mcg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\drivers\uart\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\drivers\wdog\wdog.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\list.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 6 7 9 10 8 25 11 22 24 28 42 20 23 29 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\queue.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 6 7 9 10 8 25 11 26 16 22 24 28 42 20 23 29 17 18 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\tasks.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 6 7 9 10 8 25 11 15 5 26 16 22 24 28 42 20 23 29 17 18 27 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\timers.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 24 6 7 9 10 8 25 11 28 42 20 23 29 17 18 19 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\common\startup.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\cpu\arm_cm4.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\cpu\crt0.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\cpu\start.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\cpu\sysinit.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\cpu\vectors.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main_blinky.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\portable\MemMang\heap_2.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 6 7 9 10 8 25 11 22 24 28 42 20 23 29 17 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\port.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 24 6 7 9 10 8 25 11 28 42 20 23 29 17 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\portasm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Blinky\Exe\RTOSDemo.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Full</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Common\Minimal\recmutex.c</file>
+      <file>$PROJ_DIR$\..\Common\Minimal\dynamic.c</file>
+      <file>$PROJ_DIR$\..\Common\Minimal\PollQ.c</file>
+      <file>$PROJ_DIR$\..\Common\Minimal\QPeek.c</file>
+      <file>$PROJ_DIR$\Full\Obj\countsem.o</file>
+      <file>$PROJ_DIR$\Full\Obj\GenQTest.o</file>
+      <file>$PROJ_DIR$\..\Common\Minimal\countsem.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\drivers\enet\mii.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\drivers\mcg\mcg.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\drivers\uart\uart.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\drivers\wdog\wdog.c</file>
+      <file>$PROJ_DIR$\..\Common\ethernet\FreeTCPIP\apps\httpd\http-strings.c</file>
+      <file>$PROJ_DIR$\..\Common\Minimal\blocktim.c</file>
+      <file>$PROJ_DIR$\Full\Obj\port.o</file>
+      <file>$PROJ_DIR$\Full\Obj\queue.o</file>
+      <file>$PROJ_DIR$\Full\Obj\tasks.o</file>
+      <file>$PROJ_DIR$\Full\Obj\timers.o</file>
+      <file>$PROJ_DIR$\Full\Obj\startup.o</file>
+      <file>$PROJ_DIR$\Full\Obj\arm_cm4.o</file>
+      <file>$PROJ_DIR$\Full\Obj\start.o</file>
+      <file>$PROJ_DIR$\Full\Obj\crt0.o</file>
+      <file>$PROJ_DIR$\Full\Obj\BlockQ.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\blocktim.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\countsem.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\death.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\dynamic.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\wdog.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\http-strings.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\httpd-fs.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\httpd.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\EMAC.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\httpd-cgi.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\psock.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\uip.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\uip_arp.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\main-full.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\ParTest.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\uIP_Task.pbi</file>
+      <file>$PROJ_DIR$\Full\Exe\RTOSDemo.out</file>
+      <file>$PROJ_DIR$\Full\Obj\RTOSDemo.pbd</file>
+      <file>$PROJ_DIR$\Full\Exe\RTOSDemo.srec</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\uIP_Task.c</file>
+      <file>$PROJ_DIR$\Full\Obj\BlockQ.o</file>
+      <file>$PROJ_DIR$\..\Common\include\dynamic.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\croutine.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\Common\include\semtest.h</file>
+      <file>$PROJ_DIR$\..\Common\include\GenQTest.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\task.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\list.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\queue.h</file>
+      <file>$PROJ_DIR$\..\Common\include\BlockQ.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\portable.h</file>
+      <file>$PROJ_DIR$\Full\Obj\blocktim.o</file>
+      <file>$PROJ_DIR$\..\Common\Minimal\BlockQ.c</file>
+      <file>$PROJ_DIR$\..\Common\include\recmutex.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\FreeRTOS.h</file>
+      <file>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\portmacro.h</file>
+      <file>$PROJ_DIR$\..\Common\include\QPeek.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\Common\include\countsem.h</file>
+      <file>$PROJ_DIR$\..\Common\Minimal\GenQTest.c</file>
+      <file>$PROJ_DIR$\..\Common\Minimal\death.c</file>
+      <file>$PROJ_DIR$\Full\Obj\queue.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\tasks.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\timers.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\startup.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\arm_cm4.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\start.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\sysinit.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\vectors.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\enet.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\eth_phy.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\mii.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\mcg.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\uart.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\Common\include\TimerDemo.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\Common\include\blocktim.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\timers.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\projdefs.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\mpu_wrappers.h</file>
+      <file>$PROJ_DIR$\..\Common\include\PollQ.h</file>
+      <file>$PROJ_DIR$\..\..\Source\include\semphr.h</file>
+      <file>$PROJ_DIR$\..\Common\include\death.h</file>
+      <file>$PROJ_DIR$\Full\Obj\sysinit.o</file>
+      <file>$PROJ_DIR$\Full\Obj\vectors.o</file>
+      <file>$PROJ_DIR$\Full\Obj\enet.o</file>
+      <file>$PROJ_DIR$\Full\Obj\eth_phy.o</file>
+      <file>$PROJ_DIR$\Full\Obj\mii.o</file>
+      <file>$PROJ_DIR$\Full\Obj\mcg.o</file>
+      <file>$PROJ_DIR$\Full\Obj\uart.o</file>
+      <file>$PROJ_DIR$\Full\Obj\wdog.o</file>
+      <file>$PROJ_DIR$\..\Common\ethernet\FreeTCPIP\apps\httpd\httpd-fs.c</file>
+      <file>$PROJ_DIR$\..\Common\ethernet\FreeTCPIP\apps\httpd\httpd.c</file>
+      <file>$PROJ_DIR$\webserver\EMAC.c</file>
+      <file>$PROJ_DIR$\webserver\httpd-cgi.c</file>
+      <file>$PROJ_DIR$\..\Common\ethernet\FreeTCPIP\psock.c</file>
+      <file>$PROJ_DIR$\Full\Obj\http-strings.o</file>
+      <file>$PROJ_DIR$\Full\Obj\httpd-fs.o</file>
+      <file>$PROJ_DIR$\Full\Obj\httpd.o</file>
+      <file>$PROJ_DIR$\Full\Obj\EMAC.o</file>
+      <file>$PROJ_DIR$\Full\Obj\httpd-cgi.o</file>
+      <file>$PROJ_DIR$\Full\Obj\psock.o</file>
+      <file>$PROJ_DIR$\Full\Obj\timer.o</file>
+      <file>$PROJ_DIR$\Full\Obj\uip.o</file>
+      <file>$PROJ_DIR$\Full\Obj\uip_arp.o</file>
+      <file>$PROJ_DIR$\Full\Obj\main-full.o</file>
+      <file>$PROJ_DIR$\Full\Obj\ParTest.o</file>
+      <file>$PROJ_DIR$\Full\Obj\uIP_Task.o</file>
+      <file>$PROJ_DIR$\Full\Obj\portasm.o</file>
+      <file>$PROJ_DIR$\Full\Obj\GenQTest.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\PollQ.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\QPeek.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\recmutex.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\semtest.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\TimerDemo.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\heap_2.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\port.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\Full\Obj\PollQ.o</file>
+      <file>$PROJ_DIR$\Full\Obj\semtest.o</file>
+      <file>$PROJ_DIR$\Full\Obj\TimerDemo.o</file>
+      <file>$PROJ_DIR$\Full\Obj\heap_2.o</file>
+      <file>$PROJ_DIR$\Full\Obj\list.o</file>
+      <file>$PROJ_DIR$\Full\Obj\death.o</file>
+      <file>$PROJ_DIR$\Full\Obj\dynamic.o</file>
+      <file>$PROJ_DIR$\..\..\Source\list.c</file>
+      <file>$PROJ_DIR$\..\..\Source\queue.c</file>
+      <file>$PROJ_DIR$\..\..\Source\tasks.c</file>
+      <file>$PROJ_DIR$\..\..\Source\timers.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\common\startup.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\cpu\arm_cm4.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\cpu\crt0.s</file>
+      <file>$PROJ_DIR$\Freescale_Code\cpu\start.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\cpu\sysinit.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\cpu\vectors.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\drivers\enet\enet.c</file>
+      <file>$PROJ_DIR$\Freescale_Code\drivers\enet\eth_phy.c</file>
+      <file>$PROJ_DIR$\..\Common\ethernet\FreeTCPIP\timer.c</file>
+      <file>$PROJ_DIR$\..\Common\ethernet\FreeTCPIP\uip.c</file>
+      <file>$PROJ_DIR$\..\Common\ethernet\FreeTCPIP\uip_arp.c</file>
+      <file>$PROJ_DIR$\FreeRTOSConfig.h</file>
+      <file>$PROJ_DIR$\main-full.c</file>
+      <file>$PROJ_DIR$\main_blinky.c</file>
+      <file>$PROJ_DIR$\ParTest.c</file>
+      <file>$PROJ_DIR$\..\Common\Minimal\semtest.c</file>
+      <file>$PROJ_DIR$\..\Common\Minimal\TimerDemo.c</file>
+      <file>$PROJ_DIR$\..\..\Source\portable\MemMang\heap_2.c</file>
+      <file>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\port.c</file>
+      <file>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\portasm.s</file>
+      <file>$PROJ_DIR$\Full\Obj\QPeek.o</file>
+      <file>$PROJ_DIR$\Full\Obj\recmutex.o</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\Common\Minimal\recmutex.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64 67 43 44 46 47 45 84 48 89 151 60 65 90 56 57 92 58 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\Minimal\dynamic.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 43 44 46 47 45 84 48 64 67 89 151 60 65 90 56 57 92 58 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\Minimal\PollQ.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 43 44 46 47 45 84 48 64 67 89 151 60 65 90 56 57 58 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\Minimal\QPeek.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 43 44 46 47 45 84 48 64 67 89 151 60 65 90 56 57 58 92 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\Minimal\countsem.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64 67 43 44 46 47 45 84 48 89 151 60 65 90 56 57 92 58 68</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\drivers\enet\mii.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\drivers\mcg\mcg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\drivers\uart\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\drivers\wdog\wdog.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\ethernet\FreeTCPIP\apps\httpd\http-strings.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\Minimal\blocktim.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64 67 43 44 46 47 45 84 48 89 151 60 65 90 56 57 58 87</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Full\Exe\RTOSDemo.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uIP_Task.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\Minimal\BlockQ.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 43 44 46 47 45 84 48 64 67 89 151 60 65 90 56 57 58 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\Minimal\GenQTest.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 43 44 46 47 45 84 48 64 67 89 151 60 65 90 56 57 58 92 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\Minimal\death.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 43 44 46 47 45 84 48 64 67 89 151 60 65 90 56 57 93</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\ethernet\FreeTCPIP\apps\httpd\httpd-fs.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\ethernet\FreeTCPIP\apps\httpd\httpd.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\webserver\EMAC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\webserver\httpd-cgi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\ethernet\FreeTCPIP\psock.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\list.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 43 44 46 47 45 84 48 64 67 89 151 60 65 90 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\queue.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 43 44 46 47 45 84 48 86 53 64 67 89 151 60 65 90 56 57 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\tasks.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\timers.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\common\startup.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\cpu\arm_cm4.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\cpu\crt0.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\cpu\start.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\cpu\sysinit.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\cpu\vectors.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\drivers\enet\enet.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Freescale_Code\drivers\enet\eth_phy.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\ethernet\FreeTCPIP\timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\ethernet\FreeTCPIP\uip.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\ethernet\FreeTCPIP\uip_arp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main-full.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ParTest.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\Minimal\semtest.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 43 44 46 47 45 84 48 64 67 89 151 60 65 90 56 57 92 58 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Common\Minimal\TimerDemo.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86 43 44 46 47 45 84 48 53 64 67 89 151 60 65 90 56 57 88 85</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\portable\MemMang\heap_2.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 43 44 46 47 45 84 48 64 67 89 151 60 65 90 56 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\port.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64 67 43 44 46 47 45 84 48 89 151 60 65 90 56 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Source\portable\IAR\ARM_CM3\portasm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+
