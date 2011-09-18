@@ -24,5 +24,6 @@ ln -s "$(which arm-kinetis-eabi-gcc)" bin/arm-none-eabi-gcc
 ln -s "$(which arm-kinetis-eabi-g++)" bin/arm-none-eabi-g++
 ln -s "$(which arm-kinetis-eabi-ar)" bin/arm-none-eabi-ar
 ln -s "$(which arm-kinetis-eabi-ld)" bin/arm-none-eabi-ld
+ln -s "$(which arm-kinetis-eabi-objcopy)" bin/arm-none-eabi-objcopy
 
 export PATH="$PATH:$(pwd)/bin/"

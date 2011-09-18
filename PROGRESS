@@ -1,0 +1,36 @@
+$ cd Demo/CORTEX_LM3S102_GCC/ && make
+  CC    init/startup.c
+  CC    main.c
+  CC    hw_include/pdc.c
+  CC    ../../Source/list.c
+  CC    ../../Source/queue.c
+  CC    ../../Source/tasks.c
+  CC    ../../Source/portable/GCC/ARM_CM3/port.c
+  CC    ../../Source/portable/MemMang/heap_1.c
+  CC    ParTest/ParTest.c
+  CC    ../Common/Minimal/crflash.c
+  CC    ../../Source/croutine.c
+  LD    gcc/RTOSDemo.axf
+arm-none-eabi-ld: gcc/RTOSDemo.axf section `.text' will not fit in region `FLASH'
+arm-none-eabi-ld: region `FLASH' overflowed by 1124 bytes
+make: *** [gcc/RTOSDemo.axf] Error 1
+
+tried adding LINKER_SCRIPT=/opt/Sourcery/arm-kinetis-eabi/lib/twr-k40x256-ram-hosted.ld, no luck.
+
+o$ cd Demo/CORTEX_LM3S811_GCC/ && make
+  CC    init/startup.c
+  CC    main.c
+  CC    ../../Source/list.c
+  CC    ../../Source/queue.c
+  CC    ../../Source/tasks.c
+  CC    ../../Source/portable/GCC/ARM_CM3/port.c
+  CC    ../../Source/portable/MemMang/heap_1.c
+  CC    ../Common/Minimal/BlockQ.c
+  CC    ../Common/Minimal/PollQ.c
+  CC    ../Common/Minimal/integer.c
+  CC    ../Common/Minimal/semtest.c
+  CC    hw_include/osram96x16.c
+  LD    gcc/RTOSDemo.axf
+$
+
+Success! Will it run? Proably won't even check.
